@@ -2,9 +2,7 @@
 
 ## Python Enviroment
 
-### Compile Python
-
-### Create Enviroment Variables
+Compile **Python** from source
 
 * ### Compile OpenSSL:
     
@@ -52,6 +50,10 @@
     to check if libffi is set properly use:
     ```bash
     pkg-config --cflags libffi
+    ```
+    Should get something like 
+    ```bash
+    -I/path/libffi/lib/lbffi-x.x.x/include
     ```
     <br>
     Now compile Python with appropriate flags:

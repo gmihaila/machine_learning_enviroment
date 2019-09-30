@@ -25,7 +25,7 @@ Compile **Python** from source
     gunzip libffi-3.2.1.tar.gz
     tar -xvf libffi-3.2.1.tar
     cd libffi-3.2.1
-    ./config --prefix=[local install]
+    ./configure --prefix=[local install]
     make
     make install
     ```

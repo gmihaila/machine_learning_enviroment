@@ -68,7 +68,12 @@ Compile **Python** from source
     make test
     make install
     ```
-    
+    Symbolic link so it works when calling python:
+    ```bash
+    ln -s python3 python
+    ```
+
+
 
 ### Machine Learning Libraries
 

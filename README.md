@@ -14,7 +14,7 @@ Compile **Python** from source
     wget https://prdownloads.sourceforge.net/tcl/tcl8.6.10-src.tar.gz
     gunzip tcl8.6.10-src.tar.gz
     tar -xvf tcl8.6.10-src.tar
-    cd tcl8.5.11/unix
+    cd tcl8.6.10/unix
     ./configure --prefix=/home/cnel711 --exec-prefix=/home/cnel711
     make
     make install

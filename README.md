@@ -4,6 +4,34 @@
 
 Compile **Python** from source
 
+* ### Compile tcl and tk:
+    
+    Get: http://www.tcl.tk/software/tcltk/download.html
+    
+    TCL
+    
+    ```bash
+    wget https://prdownloads.sourceforge.net/tcl/tcl8.6.10-src.tar.gz
+    gunzip tcl8.6.10-src.tar.gz
+    tar -xvf tcl8.6.10-src.tar
+    cd tcl8.5.11/unix
+    ./configure --prefix=/home/cnel711 --exec-prefix=/home/cnel711
+    make
+    make install
+    ```
+    
+    TK
+    
+    ```bash
+    wget https://prdownloads.sourceforge.net/tcl/tk8.6.10-src.tar.gz
+    gunzip tk8.6.10-src.tar.gz
+    tar -xvf tk8.6.10-src.tar
+    cd tk8.5.11/unix
+    ./configure --prefix=/home/cnel711 --exec-prefix=/home/cnel711 --with-tcl=/home/cnel711/tcl8.5.11/unix
+    make
+    make install
+    ```
+
 * ### Compile OpenSSL:
     
     Get Openssl: https://www.openssl.org/source/

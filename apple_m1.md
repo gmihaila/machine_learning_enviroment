@@ -8,6 +8,10 @@ learn more things along the way.
 I'm also not interested in installing anything outside of my home directory. From my previous experience working on a HPC cluster, I always build from source locally
 and avoid running any sudo commands. Because of this I created a src folder under my home directory where I will install all my software.
 
+**Notes:**
+* Cache path for Mac OS: `/Users/my_user/Library/Caches`
+* 
+
 ## Matplotlib
 
 In order to install Matplotlib on the new Apple M1 macs you need to follow some extra steps as mentioned in [this solution](https://stackoverflow.com/a/66456204)
